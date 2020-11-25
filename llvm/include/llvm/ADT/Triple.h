@@ -194,6 +194,7 @@ public:
     Hurd,       // GNU/Hurd
     WASI,       // Experimental WebAssembly OS
     Emscripten,
+    Paradox,
     LastOSType = Emscripten
   };
   enum EnvironmentType {

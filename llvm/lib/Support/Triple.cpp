@@ -210,6 +210,7 @@ StringRef Triple::getOSTypeName(OSType Kind) {
   case NaCl: return "nacl";
   case NetBSD: return "netbsd";
   case OpenBSD: return "openbsd";
+  case Paradox: return "paradox";
   case PS4: return "ps4";
   case RTEMS: return "rtems";
   case Solaris: return "solaris";
